@@ -88,3 +88,13 @@ E:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\5\dev_v
 E:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\5\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 E:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\5\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 E:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\5\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmCalculator.resources
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\SoftwareDevelopment\VisualStudioProjects\School\C#\GroupProject\Group\4\dev_v1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

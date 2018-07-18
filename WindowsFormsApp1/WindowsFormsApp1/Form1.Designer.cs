@@ -256,7 +256,7 @@
             // 
             // txtOriging
             // 
-            this.txtOriging.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtOriging.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtOriging.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtOriging.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtOriging.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -271,7 +271,7 @@
             // 
             // txtDest
             // 
-            this.txtDest.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtDest.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtDest.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtDest.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtDest.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
