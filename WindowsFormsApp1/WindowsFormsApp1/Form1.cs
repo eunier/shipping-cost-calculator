@@ -171,6 +171,7 @@ namespace WindowsFormsApp1
             {
                 totalPrice = typePrice * Convert.ToDouble(txtTotalWeight.Text) * weightPrice * miles * milesPrice;
                 MessageBox.Show("Total Price:\n$" + totalPrice, "Total Price", MessageBoxButtons.OK);
+                addresses.AddNewAddressesSuggestions();
             }
             catch (Exception ex)
             {

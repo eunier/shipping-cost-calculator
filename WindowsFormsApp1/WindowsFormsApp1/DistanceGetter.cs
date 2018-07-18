@@ -24,12 +24,15 @@ namespace WindowsFormsApp1
 
         public double GetDrivingDistanceInMiles(string origin, string destination)
         {
+            //this is the API call
             string url = @"http://maps.googleapis.com/maps/api/distancematrix/xml?origins=" +
               origin + "&destinations=" + destination +
               "&mode=driving&sensor=false&language=en-EN&units=imperial";
-
+            //this uses the libraries on C# to conect the API
+            //post
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             WebResponse response = request.GetResponse();
+            
             Stream dataStream = response.GetResponseStream();
             StreamReader sreader = new StreamReader(dataStream);
             string responsereader = sreader.ReadToEnd();
@@ -48,7 +51,8 @@ namespace WindowsFormsApp1
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error, check the address imput to see if is correct .", "Error",
+                    //when is a wrong adress format/ adress does not exist
+                    MessageBox.Show("Error, check the address imput to see if is correct(street,STATE,zip)", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Console.WriteLine(ex);
                     frmCalculator.clear();

@@ -15,11 +15,13 @@ namespace WindowsFormsApp1
         private readonly FrmCalculator frmCalculator;
         private readonly String dataBaseFileName = "addresses.txt";
         private readonly char[] sep = {';'};
+        // this is a object built into C# that hold txtbox dropdown suggestions
         private AutoCompleteStringCollection autoCompleteOrigin;
         private AutoCompleteStringCollection autoCompleteDest;
 
         public Address()
         {
+            // assigning AutoCompleteStringCollection objects
             autoCompleteOrigin = new AutoCompleteStringCollection();
             autoCompleteDest = new AutoCompleteStringCollection();
             
@@ -27,10 +29,13 @@ namespace WindowsFormsApp1
 
         public Address(FrmCalculator frmCalculator) : this()
         {
+            // gettig fort object instance
             this.frmCalculator = frmCalculator;
+            // getaddress for text file
             GetAddresses();
         }
 
+        /*// setter and getter
         public AutoCompleteStringCollection AutoCompleteOrigin
         {
             get => autoCompleteOrigin;
@@ -41,8 +46,9 @@ namespace WindowsFormsApp1
         {
             get => autoCompleteDest;
             set => autoCompleteDest = value;
-        }
+        }*/
 
+        // get addresses from text file and assing then to the corresponding textboxs
         private void GetAddresses()
         {
             try
@@ -76,6 +82,21 @@ namespace WindowsFormsApp1
             }
             frmCalculator.TxtOriging.AutoCompleteCustomSource = autoCompleteOrigin;
             frmCalculator.TxtDest.AutoCompleteCustomSource = autoCompleteDest;
+        }
+
+        // add new addresses the text file and calls the GetAddresses() methods this refresh the textboxes auto completion suggestions
+        public void AddNewAddressesSuggestions()
+        {
+            // open the file
+            FileStream outfile = new FileStream(dataBaseFileName, FileMode.Append);
+            StreamWriter writer = new StreamWriter(outfile);
+            // write new addresses to the textfile
+            writer.WriteLine(frmCalculator.TxtOriging.Text + sep[0] + frmCalculator.TxtDest.Text);
+            // close the file
+            writer.Close();
+            outfile.Close();
+            // call GetAddresses methods which refresh txtboxes auto completion suggestions, which will include the new addresses added above
+            GetAddresses();
         }
     }
 }
